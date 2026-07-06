@@ -83,7 +83,7 @@ exports.sendDailyWord = async (event, context) => {
                         <td align="center" style="padding-bottom:24px;">
                         <table role="presentation" cellpadding="0" cellspacing="0">
                             <tr>
-                            <td style="background-color:#FF6F59; width:32px; height:32px; border-radius:8px; text-align:center; vertical-align:middle; font-family:Georgia, 'Times New Roman', serif; font-style:italic; font-weight:bold; font-size:17px; color:#FFF8EC;">
+                            <td style="background-color:#FF6F59; width:32px; height:32px; border-radius:8px; text-align:center; vertical-align:middle; font-family:Georgia, 'Times New Roman', serif; font-style:italic; font-weight:bold; font-size:17px; color:#FFF8EC; transform:rotate(-6deg); -ms-transform:rotate(-6deg); -webkit-transform:rotate(-6deg);">
                                 W
                             </td>
                             <td style="padding-left:10px; font-family:Georgia, 'Times New Roman', serif; font-weight:bold; font-size:18px; color:#241C3D;">
@@ -130,7 +130,7 @@ exports.sendDailyWord = async (event, context) => {
                             <tr>
                             <td>
                                 <a href="${audioUrl}" style="display:inline-block; background-color:#1FAFA0; color:#FFFFFF; text-decoration:none; font-size:12px; font-weight:bold; padding:7px 16px; border-radius:100px;">
-                                &#9654; Hear it pronounced
+                                &#9654;&#xFE0E; Hear it pronounced
                                 </a>
                             </td>
                             </tr>
