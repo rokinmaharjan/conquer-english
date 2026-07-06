@@ -1,0 +1,7 @@
+node_modules/
+.env
+.firebase/
+
+# Mac stuff
+.DS_Store
+__MACOSX/

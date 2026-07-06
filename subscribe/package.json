@@ -1,0 +1,8 @@
+{
+  "name": "subscribe",
+  "main": "index.js",
+  "dependencies": {
+    "@google-cloud/firestore": "^7.0.0",
+    "uuid": "^9.0.0"
+  }
+}

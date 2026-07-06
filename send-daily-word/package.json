@@ -1,0 +1,9 @@
+{
+  "name": "sendDailyWord",
+  "main": "index.js",
+  "dependencies": {
+    "@google-cloud/firestore": "^7.0.0",
+    "mailgun.js": "^10.2.1",
+    "form-data": "^4.0.0"
+  }
+}
